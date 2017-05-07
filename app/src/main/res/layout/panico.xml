@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/block"
+    android:weightSum="1">
+
+
+
+
+        <Button
+            android:layout_marginTop="150px"
+        android:id="@+id/bDetener"
+        android:layout_width="match_parent"
+        android:layout_height="350px"
+        android:text="Detener"
+        android:background="@android:color/transparent"
+
+        android:onClick="detenerGrabacion"
+            android:layout_weight="0.29"
+
+           />
+
+        <Button
+            android:background="@android:color/transparent"
+            android:layout_marginTop="200px"
+            android:id="@+id/bReproducir"
+            android:layout_width="match_parent"
+            android:layout_height="350px"
+            android:text="Repro"
+
+            android:onClick="reproducir"
+
+            android:layout_weight="0.20" />
+
+
+</LinearLayout>

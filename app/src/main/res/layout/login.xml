@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+
+
+    <EditText
+        android:id="@+id/idclave"
+        android:layout_width="@dimen/nav_header_height"
+        android:layout_marginRight="200px"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="400px"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Numero de Licencia"
+        android:maxLength="8"
+
+         />
+
+    <EditText
+        android:id="@+id/placa"
+        android:layout_width="match_parent"
+        android:layout_marginRight="200px"
+        android:layout_marginLeft="200px"
+        android:layout_height="wrap_content"
+
+        android:hint="Placa"
+
+        />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:text="Iniciar Sesion"
+        android:layout_marginRight="200px"
+        android:layout_marginLeft="200px"/>
+</LinearLayout>

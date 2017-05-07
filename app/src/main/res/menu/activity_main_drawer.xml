@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item
+            android:id="@+id/reporte"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Realizar un Reporte" />
+        -->
+        <item
+            android:id="@+id/estado"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Estado de Reportes" />
+        <item
+            android:id="@+id/reglamento"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Ingresar a Reglamento" />
+        <item
+            android:id="@+id/form"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Enviar Archivo a Transito" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_ayuda"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Ayuda" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir Aplicacion" />
+
+
+            <item
+                android:id="@+id/cerrar_sesion"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Cerrar Sesion" />
+        </menu>
+    </item>
+
+</menu>
